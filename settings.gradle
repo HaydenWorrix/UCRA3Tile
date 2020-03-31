@@ -1,0 +1,2 @@
+rootProject.name='UCRA-3Tile'
+include ':app'
