@@ -1,4 +1,4 @@
-package com.example.ucra_3tile.ui.home;
+package com.example.ucra_3tile.ui.map;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -23,13 +23,6 @@ public class MapsFragment extends Fragment {
         mapsViewModel =
                 ViewModelProviders.of(this).get(MapsViewModel.class);
         View root = inflater.inflate(R.layout.fragment_maps, container, false);
-        final TextView textView = root.findViewById(R.id.text_maps);
-        mapsViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
-            @Override
-            public void onChanged(@Nullable String s) {
-                textView.setText(s);
-            }
-        });
         return root;
     }
 }

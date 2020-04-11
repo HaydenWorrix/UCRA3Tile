@@ -1,4 +1,4 @@
-package com.example.ucra_3tile.ui.home;
+package com.example.ucra_3tile.ui.map;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
